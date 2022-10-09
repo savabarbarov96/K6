@@ -13,7 +13,9 @@ Enviorment: Requires Linux
 3. Open Browser and go to Localhost:19999
 
 
-4. Install k6 from the following URL: https://k6.io/docs/getting-started/installation/
+4. Install k6 from the following URL: wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh
+
+https://k6.io/docs/getting-started/installation/
 
 
 5. Run the JavaScript test file using k6 run --out Test.js
